@@ -25,7 +25,7 @@ A = []
 
 for i in range(9):
     num = int(input("Enter Marks :"))
-    A.append(num)
+    A.append
 
 print("Befor sorting:", A)
 insertionSort(A)
