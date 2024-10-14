@@ -27,5 +27,10 @@ for i in range(9):
     num = int(input("Enter Marks :"))
     A.append(num)
 
+print("Befor sorting:", A)
+insertionSort(A)
+print("After sorting:", A)
+ 
+
 print("Range is :", findRange(A))
 print("Median is :", findmedian(A))      
