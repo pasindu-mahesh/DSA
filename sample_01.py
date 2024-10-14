@@ -12,9 +12,20 @@ def insertionSort(A):
 
 def findRange(A):
     range = A[-1] - A[0]
+    return range
 
 def findmedian(A):
     if(len(A) % 2 == 0):
         median = (A[len(A) // 2] + A[(len(A) //2) - 2]) / 2
     else:
         median = A[len(A) // 2]
+    return median
+
+A = []
+
+for i in range(9):
+    num = int(input("Enter Marks :"))
+    A.append(num)
+
+print("Range is :", findRange(A))
+print("Median is :", findmedian(A))      
